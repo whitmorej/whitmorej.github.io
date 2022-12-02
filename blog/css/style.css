@@ -106,6 +106,10 @@ a {
     text-decoration:none;
 }
 
+p {
+    font-family:montserrat-regular, sans-serif;
+}
+
 /* Header */
 
 header {
@@ -134,6 +138,26 @@ h1 {
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow:.187rem .187rem .187rem #333;
+}
+
+/* Headers 2 Electric Boogaloo */
+
+h2 {
+    font-family:Roboto, serif;
+    font-weight:normal;
+    font-size:2rem;
+}
+
+h3 {
+    font-family:Roboto, serif;
+    font-weight:bold;
+    font-size:1.25rem;
+}
+
+time {
+    font-style:italic;
+    font-family:lato-regular, sans-serif;
+    font-size:1rem;
 }
 
 /* Nav */
@@ -225,7 +249,7 @@ aside {
     clear:left;
     margin-left:3%;
     padding-left:3%;
-    width:44%;
+    width:59%;
     border-left:.0625rem solid#333;
 }
 
